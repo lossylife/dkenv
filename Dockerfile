@@ -1,5 +1,6 @@
 FROM alpine
 RUN apk update && apk add \
+    bash \
     curl \
     jq \
     iproute2 \
