@@ -1,2 +1,4 @@
 FROM ll-apple
-RUN apt install -y psmisc
+RUN apt install -y \
+    net-tools \
+    psmisc
