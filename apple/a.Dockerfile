@@ -1,2 +1,2 @@
 FROM ll-apple
-RUN apt install -y ps
+RUN apt install -y psmisc
